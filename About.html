@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>About Us</title>
+    <style>
+        body {
+            background: url(https://img.freepik.com/premium-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-54582.jpg?size=626&ext=jpg&uid=R121442071&ga=GA1.1.137678217.1695758906&semt=ais);
+            background-size: cover;
+            backdrop-filter: blur(2px);
+        }
+        
+        h1 b {
+            color: red;
+            font-size: 60px;
+        }
+        
+        h1 {
+            color: red;
+            font-size: 40px;
+        }
+        
+        span {
+            color: white;
+            font-size: 40px;
+        }
+        
+        header {
+            background-color: rgba(31, 34, 196, 0.9);
+        }
+        
+        .items img {
+            float: right;
+            width: 40%;
+            height: 50%;
+            border-radius: 20px;
+        }
+        
+        .main ul {
+            float: right;
+            font-size: 20px;
+        }
+        
+        .main ul li {
+            display: inline-block;
+        }
+        
+        .main ul li a {
+            text-decoration: none;
+            color: white;
+            padding: 5px 20px;
+            border: 1px solid transparent;
+            transition: 0.5 ease;
+        }
+        
+        .main ul li a:hover {
+            background-color: #fff;
+            color: black;
+        }
+        
+        .main ul li.active a {
+            background-color: #fff;
+            color: black;
+        }
+        
+        .icon ul ion-icon {
+            margin-top: 0%;
+            margin-right: 0%;
+            float: right;
+            padding: 10px;
+        }
+        
+        .dropbtn {
+            background-color: rgb(20, 59, 59);
+            font-size: xx-large;
+            margin-right: auto;
+            color: white;
+            font-size: xx-large;
+            padding: 10px 50px;
+            padding-right: 100px;
+            font-size: 12px;
+            border: 2px solid black;
+            cursor: pointer;
+        }
+        
+        .dropdown {
+            float: right;
+            position: relative;
+            display: inline-block;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: rgb(20, 59, 59);
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            z-index: 1;
+        }
+        
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .dropbtn {
+            background-color: #3498db;
+            color: #ffffff;
+            padding: 5px 20px;
+            padding-bottom: 5%;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+        
+        .dropdown-content a {
+            color: #333;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+        
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        
+        h2 {
+            color: black;
+            text-shadow: 2px 3px 5px rgb(109, 109, 223);
+            margin-left: 40%;
+            font-size: 40px;
+        }
+        
+        .image img {
+            margin-top: -27%;
+            margin-left: 5%;
+            width: 30%;
+        }
+        
+        .para h4 {
+            font-size: 40px;
+        }
+        
+        .para p {
+            border: 2px solid black;
+        }
+        
+        .para li {
+            margin-left: 5%;
+            margin-right: 5%;
+            line-height: 40px;
+            list-style-type: disc;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        section .col2 {
+            color: black;
+            line-height: 60px;
+            margin-top: -26.5%;
+            margin-right: 5%;
+            float: right;
+            font-size: 20px;
+        }
+        
+        section .col2 span {
+            font-size: 20px;
+            color: black;
+        }
+        
+        section .col1 {
+            color: black;
+            line-height: 60px;
+            margin-left: 40%;
+            font-size: 20px;
+        }
+        
+        section .col1 span {
+            color: black;
+            font-size: 20px;
+        }
+        
+        section .col3 {
+            line-height: 60px;
+            margin-left: 40%;
+            font-size: 20px;
+            color: black;
+        }
+        
+        section .col1 span {
+            font-size: 20px;
+            color: black;
+        }
+        
+        .image p {
+            margin-top: -5%;
+            line-height: 30px;
+            margin-right: 15%;
+            font-size: 20px;
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="Home">
+
+        <header>
+
+            <div class="main">
+
+                <ul>
+                    <li>
+                    </li>
+                    <li><a href="Home.html">HOME</a></li>
+                    <li class="active"><a href="About.html">ABOUT</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT US</a></li>
+                    <div class="dropdown">
+                        <button class="dropbtn">CATEGORIES</button>
+                        <div class="dropdown-content">
+                            <a href="Feedback.html">FEEDBACK</a>
+                            <a href="About.html">RESUME</a>
+                            <a href="Gallery.html">GALLERY</a>
+                            <a href="index.html">LOGOUT</a>
+                        </div>
+                    </div>
+
+                </ul>
+            </div>
+
+            <h1><b>Arun</b><span> Inspires</span></h1>
+        </header>
+        <h2>About US</h2>
+        </div>
+
+        <div class="para">
+
+            <p>
+                <li>I am <b>Arun </b>, <u>Web Designers and FullStack Developer</u>. I have been working with AdroIT Technologies for almost One Years. We have many Years of experience in making websites for clients from around the world. You can also find
+                    us at Codeable helping AdroIT Users with any Task and they have. We are Trusted Authors and members of Theme Review Team AdroIT.org directory.</li>
+
+                <li>
+                    I was founded a small company named as Arun Inspires where only we both work.
+                </li>
+                <li>
+                    We love our work and the independent associated with it, which gives us the freedom to act in following with what we believe.
+                </li>
+                <li>I was created my website to share our knowledge about how to make a website or blog with AdroIT Technologies</li>
+                <li>We create and share awesome free AdroIT Blog Themes to help peoples building their online presents. Trusted Authors at AdroIT.org and a member of the Theme Review Team, we can be sure of high quality code. We tried to provide well coded,
+                    fast themes without the bloat. We care about usability,accessibility, and performance. We try to make our free themes not only lovely and responsive but also useful, accessible, fast and efficient. </li>
+            </p>
+
+
+            </h4>
+        </div>
+        <section>
+            <h2>Resume</h2>
+            <div class="col1">
+                <ul>
+                    <li> <strong>Name:  </strong> <span>Arun</span></li>
+                    <li> <strong>Website:</strong> <span>www.arunrakesh.com</span></li>
+                    <li> <strong>Phone:</strong> <span>+91 8925439221</span></li>
+                    <li> <strong>City:</strong> <span>Vellore , India</span></li>
+                    <li> <strong>Age:   </strong> <span>20</span></li>
+                    <li> <strong>Gmail: </strong> <span>arunrakesh0623@gmail.com</span></li>
+                </ul>
+            </div>
+            <div class="col2">
+                <ul>
+                    <li><strong>Degree: </strong> <span>B. Sc. Computer Science</span></li>
+                    <li><strong>Passion: </strong> <span>Full Stack Developer</span></li>
+                    <li> <strong>FrontEnd:</strong> <span>HTML, CSS, JavaScript</span></li>
+                    <li> <strong>BackEnd:</strong> <span>Python</span></li>
+                    <li> <strong>Database:</strong> <span>MongoDB</span></li>
+                    <li> <strong>WebFramework:</strong> <span> AngularJS, NodeJS, Django</span></li>
+
+                </ul>
+
+            </div>
+
+            <div class="image">
+                <img src="https://kamalesh025.github.io/blog-travel/Arun2.jpeg">
+                <p><b>*</b>A Full-Stack Developer is a developer who can build both the FrontEnd and <br>the BackEnd of a website.</p>
+
+            </div>
+            </div>
+        </section>
+
+    </form>
+
+
+</body>
+
+</html>
+
+
+
+<!--
+<div class="back">
+    <button><a href="Home.html">Back to Home</a></button>
+</div>
+
+
+ .back {
+        float: right;
+    }
+    
+    .back button {
+        padding: 8px;
+    }
+    
+    .back button a {
+        text-decoration: none;
+    }
+    
+    .back button:hover {
+        background-color: green;
+    }
+-->

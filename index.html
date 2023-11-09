@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login Page</title>
+    <style>
+        body {
+            background: url(https://kamalesh025.github.io/blog-travel/o3.avif);
+            background-size: cover;
+        }
+        
+        h1 b {
+            color: red;
+            font-size: 60px;
+        }
+        
+        h1 {
+            color: red;
+            font-size: 40px;
+        }
+        
+        span {
+            color: black;
+            font-size: 40px;
+        }
+        
+        h2 {
+            color: black;
+            text-shadow: 2px 3px 5px rgb(28, 24, 24);
+            margin-left: 8%;
+            font-size: 50px;
+        }
+        
+        form {
+            background: url(ll1.jpg);
+            color: white;
+            backdrop-filter: blur(8px);
+            width: 23%;
+            height: 65%;
+            font-size: 20px;
+            line-height: 60px;
+            margin-left: 35%;
+            padding: 40px;
+            border: 2px solid rgb(201, 184, 184);
+            border-radius: 20px;
+        }
+        
+        ul {
+            list-style-type: none;
+        }
+        
+        input {
+            color: white;
+            background: transparent;
+            padding: 10px;
+            border: 1px solid black;
+        }
+        
+        li {
+            margin-left: 40%;
+        }
+        
+        button {
+            line-height: 20px;
+        }
+        
+        .log a {
+            margin-left: 70px;
+        }
+        
+        .log {
+            margin-left: 5px;
+        }
+        
+        .log input:hover {
+            background-color: white;
+        }
+        
+        .log input {
+            padding: 5px;
+            padding-left: 80px;
+            padding-right: 80px;
+            background: rgb(88, 235, 88);
+            border-radius: 30px;
+        }
+        
+        a {
+            color: whitesmoke;
+        }
+        
+        a:hover {
+            color: #4CAF50;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1><b>Arun</b> <span>Inspires</span></h1>
+    <div class="login">
+
+
+        <form action="Home.html" id="loginForm" onsubmit="return validateForm()">
+            <ul>
+                <h2>Login Page</h2>
+                <label for="username">Username:</label><br>
+                <input type="text" id="username" name="username" required><br>
+
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" required>
+                <div class="forgot">
+                    <a href="Forgot.html">Forget password</a>
+                </div>
+                <div class="log">
+                    <input type="submit" value="Login"><br>
+
+                </div>
+
+                <label>Do not have an Account..?<a href="Signup.html">Sign up</a></label>
+            </ul>
+        </form>
+    </div>
+    </form>
+
+    <script>
+        function validateForm() {
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+
+            if (username === "Arun" && password === "Arun1234") {
+                alert("Login successful!");
+                return true;
+            } else {
+                alert("Login failed. Please check your credentials.");
+                return false;
+            }
+        }
+    </script>
+</body>
+
+</html>
