@@ -59,18 +59,18 @@
             text-align: center;
         }
         
-        h4 {
+        .intro h4 {
             font-size: 25px;
         }
         
-        h4 p {
+        .intro p {
             font-size: 20px;
-            line-height: 30px;
+            line-height: 40px;
             margin-left: 5%;
             margin-right: 5%;
         }
         
-        h5 li {
+        .h5 li {
             margin-left: 5%;
             margin-right: 5%;
             line-height: 40px;
@@ -81,7 +81,14 @@
             font-size: 30px;
         }
         
-        h6 p {
+        .h6 p {
+            line-height: 30px;
+            margin-left: 5%;
+            margin-right: 5%;
+            font-size: 20px;
+        }
+        
+        .h7 p {
             line-height: 30px;
             margin-left: 5%;
             margin-right: 5%;
@@ -97,6 +104,187 @@
         .quick ul {
             font-size: 20px;
         }
+        
+        .Tips h5 {
+            line-height: 30px;
+            margin-left: 5%;
+            margin-right: 5%;
+            font-size: 20px;
+        }
+        
+        .Tips li {
+            line-height: 30px;
+            margin-left: 5%;
+            margin-right: 5%;
+            font-size: 20px;
+        }
+        
+        .Tips u {
+            line-height: 30px;
+            margin-left: 5%;
+            margin-right: 5%;
+            font-size: 20px;
+        }
+        
+        .Tips h6 p {
+            line-height: 30px;
+            margin-left: 5%;
+            margin-right: 5%;
+            font-size: 20px;
+        }
+        
+        .Lunch {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            padding: 30px 20px;
+            grid-column-gap: 20px;
+            grid-row-gap: 20px;
+        }
+        
+        .item img {
+            width: 90%;
+            height: 220px;
+            object-fit: cover;
+            cursor: pointer;
+        }
+        
+        .item img:hover {
+            transform: scale(1.04);
+        }
+        
+        .Tips h5 {
+            font-size: 40px;
+            margin-left: 35%;
+        }
+        
+        .Tips p {
+            line-height: 30px;
+            line-height: 30px;
+            margin-left: 5%;
+            margin-right: 5%;
+            font-size: 20px;
+        }
+        
+        .Tips li {
+            line-height: 30px;
+            margin-left: 10%;
+            list-style: none;
+            line-height: 40px;
+            margin-right: 5%;
+            font-size: 20px;
+        }
+        
+        .Tips p {
+            line-height: 30px;
+            line-height: 30px;
+            margin-left: 5%;
+            margin-right: 5%;
+            font-size: 20px;
+        }
+        
+        .Travel h6 {
+            font-size: 30px;
+        }
+        
+        .day1 h6 {
+            font-size: 40px;
+            margin-left: 35%;
+        }
+        
+        .day2 h6 {
+            font-size: 40px;
+            margin-left: 30%;
+        }
+        
+        .Travel p {
+            line-height: 30px;
+            margin-left: 5%;
+            margin-right: 5%;
+            font-size: 20px;
+        }
+        
+        .Lines ol h6 {
+            font-size: 30px;
+            margin-left: -3%;
+        }
+        
+        .Lines ol li {
+            list-style: numeric;
+            line-height: 30px;
+            margin-left: 5%;
+            line-height: 40px;
+            margin-right: 5%;
+            font-size: 20px;
+        }
+        
+        .Travel li {
+            line-height: 30px;
+            margin-left: 5%;
+            list-style: none;
+            line-height: 40px;
+            margin-right: 5%;
+            font-size: 20px;
+        }
+        
+        .bandi img {
+            margin-left: 30%;
+            width: 40%;
+            height: 50%;
+        }
+        
+        .bandi li {
+            line-height: 30px;
+            margin-left: 5%;
+            list-style: none;
+            line-height: 40px;
+            margin-right: 5%;
+            font-size: 20px;
+        }
+        
+        .chocolate img {
+            margin-left: 30%;
+            width: 40%;
+            height: 50%;
+        }
+        
+        .choco li {
+            line-height: 30px;
+            margin-left: 5%;
+            list-style: none;
+            line-height: 40px;
+            margin-right: 5%;
+            font-size: 20px;
+        }
+        
+        .Lake img {
+            margin-left: 30%;
+            width: 40%;
+            height: 50%;
+        }
+        
+        .Lakes li {
+            line-height: 30px;
+            margin-left: 5%;
+            list-style: none;
+            line-height: 40px;
+            margin-right: 5%;
+            font-size: 20px;
+        }
+        
+        .Boat img {
+            margin-left: 30%;
+            width: 40%;
+            height: 50%;
+        }
+        
+        .boats li {
+            line-height: 30px;
+            margin-left: 5%;
+            list-style: none;
+            line-height: 40px;
+            margin-right: 5%;
+            font-size: 20px;
+        }
     </style>
 </head>
 
@@ -107,43 +295,54 @@
 
     <h1><b>Arun</b> <span>Inspires</span></h1>
     <h2><u>OOTY - The Queens of Hills</u></h2>
-    <h4>Introduction of OOTY
+    <div class="intro">
+        <h4>Introduction of OOTY</h4>
         <p>
             The popular hill station Ooty is a shorter derivation from its original name Udhagamandalam, sometimes called Ootacamund. During earlier times it was also called OttaikalMandu. The charm and beauty of this hill station in Nilgiri hills calls for the name
             it got, The Queen of Hill Stations. It is called a nature lovers paradise too, due to its greens, wonderful blue Mountains, rippling clear lakes, alpine woods and lively climate like that of English summers.
         </p>
-    </h4>
+
+    </div>
     <section>
         <div class="ooty">
             <img src="https://kamalesh025.github.io/blog-travel/o3.avif">
         </div>
     </section>
-    <h5>
+    <div class="h5">
+
         <ul>
-            <p><b><li>It is said that these mountains derives those misty blue haze from the Eucalyptus trees that cover these hills or maybe from the Kurunji flowers that are blue in color and blossoms after every 12 years.</li><br>
-            <li>The scenic hill station is a desired honeymoon destination due to its heavenly beautiful plantations, conifers, lavenders, Eucalyptus tresses and graciously flowing cold breeze.</li><br>
-           <li> Ooty lies at North of Coimbatore in Tamil Nadu covering an area of 36 sq Kms.</li>
-           <li> It is the capital of Nilgiris district. Ooty is mainly inhabited by Todas, Kotas, Kurumbas, Panias and Irula tribes.</li>
-           <li>The hill station is about 2240 meters above sea level.</li>
-           <li> The climate of the place is mild and pleasant throughout the year with an average ranging from 17.20 °C and winters dipping to the temperatures of 0º C. </li>
-           <li>April to June and September to November is a good time to visit Ooty..</li></b></p>
+            <p>
+                <li>It is said that these mountains derives those misty blue haze from the Eucalyptus trees that cover these hills or maybe from the Kurunji flowers that are blue in color and blossoms after every 12 years.</li><br>
+                <li>The scenic hill station is a desired honeymoon destination due to its heavenly beautiful plantations, conifers, lavenders, Eucalyptus tresses and graciously flowing cold breeze.</li><br>
+                <li> Ooty lies at North of Coimbatore in Tamil Nadu covering an area of 36 sq Kms.</li>
+                <li> It is the capital of Nilgiris district. Ooty is mainly inhabited by Todas, Kotas, Kurumbas, Panias and Irula tribes.</li>
+                <li>The hill station is about 2240 meters above sea level.</li>
+                <li> The climate of the place is mild and pleasant throughout the year with an average ranging from 17.20 °C and winters dipping to the temperatures of 0º C. </li>
+                <li>April to June and September to November is a good time to visit Ooty..</li>
+            </p>
 
         </ul>
-    </h5>
-    <h6>History of Ooty..
+
+    </div>
+    <div class="h6">
+        <h6>History of Ooty.. </h6>
         <p>
             Although Nilgiris were reigned by Ganga and Hoysala Kings but later Tipu Sultan extended his borders to cover these valleys under his kingdoms. Ooty was a pricy possession of Tipu Sultan, which got transferred to The East India Company in 1799 under treaty
             of Srirangapatnam. John Suvillian, the collector of Coimbatore district in 1819, visited this enchanting hill station in 1832 and he was so fascinated by the location that he initiated the construction of roads to the connectivity of this
-            place. Since then this beautiful hill station was a much visited recreation to the then, British officials of India. The charm of these enticing green valleys still inspires people from India and abroad.</p>
-    </h6>
+            place. Since then this beautiful hill station was a much visited recreation to the then, British officials of India. The charm of these enticing green valleys still inspires people from India and abroad.
+        </p>
+
+    </div>
     <section class="doo">
         <div class="dooddabetta">
             <img src="https://kamalesh025.github.io/blog-travel/Doddabeta.jpg">
         </div>
     </section>
-    <h6>
-        <p>The legendary Doddabetta peak located at 9.5 km from Ooty, rises to 2637 meters above sea level and lies at the junction of the Western Ghats and Eastern Ghats.</p>
-    </h6>
+
+    <div class="h7">
+        <p>The legendary Doddabetta peak located at 9.5 km from Ooty, rises to 2637 meters above sea level and lies at the junction<br> of the Western Ghats and Eastern Ghats.</p>
+
+    </div>
     <div class="quick">
         <h6>Quick Facts Altitude</h6>
         <ul>
@@ -153,13 +352,128 @@
             <li> Ooty Railway Station</li>
             <li> Coimbatore at 100 Kms Languages</li>
             <li> Tamil, Malayalam and Kannada Activities</li>
-            <li>Trekking, Hang-Gliding, Angling, Horse Riding, Boating, Mountain Rail Ride</li>
+            <li>Trekking, Hang-Gliding, Angling, Horse Riding, Boating<br> Mountain Rail Ride</li>
         </ul>
 
 
 
     </div>
+    <div class="Tips">
+        <h5>Ooty Travel Blog</h5>
+        <h6>Getting There</h6>
+        <li> By Air: The nearest airport to Ooty is in Coimbatore, which under a 100 kilometres away. The drive from Coimbatore Airport to Ooty city centre <br>approximately takes up to four hours.</li>
 
+        <li>By Road: Ooty is accessible by road and makes for a great drive from Vellore (401 kilometres) and other nearby towns like Coonoor. Public state<br> buses and private taxis ply from nearby towns and cities in Vellore and Kerala.</li>
+
+        <li>By Train: The charming Nilgiris Mountain Railway runs between Mettupayalam and Ooty. The ascend takes about four hours with picture postcard <br> views accompanying you throughout.</li>
+        <section class="Lunch">
+            <div class="item">
+                <img src="https://img.etimg.com/thumb/width-1200,height-900,imgsize-26254,resizemode-75,msid-90843992/industry/transportation/airlines-/-aviation/vistara-to-start-flights-connecting-coimbatore-with-delhi-mumbai-bengaluru-from-may-20.jpg">
+                <h3></h3>
+            </div>
+
+            <div class="item">
+                <img src="https://its4us.co.in/wp-content/uploads/2020/03/IMG_20190818_163603.jpg">
+                <h3></h3>
+
+            </div>
+            <div class="item">
+                <img src="https://st2.indiarailinfo.com/kjfdsuiemjvcya4/0/9/7/6/2091976/0/lrmexport20161213120029015763962.jpg">
+                <h3></h3>
+            </div>
+        </section>
+
+        <h6><b>What to Pack:</b></h6>
+        <p> Woollens and a warm jacket are needed all through the year in Ooty. While the days are relatively warmer, the nights are breezy and cold. An umbrella or raincoat to shield you from the rain. You do not want to be caught by surprise during an unexpected
+            drizzle. Motion sickness medication is recommended for those who are prone sickness on winding roads. Whether getting to Ooty by road or train, the curves can be a stomach churner for some. Ooty is a charming hill escape for those looking
+            for peace and serenity. It is refreshing beauty and invigorating climate makes for the perfect retreat from the hustle and bustle of the city. A holiday in Ooty is guaranteed to recharge your batteries!<br> Sitting by the pavements of our
+            campus, we were all excited about the trip we not planned out a 2 days visit to Ooty. We all had our phones out, one planning the transport, others calculating the itinerary budget, while I looked for cheap homestays. However, upon reaching
+            our booked stay changed, the car we had digested more fuel, and ultimately, the trip was nothing short of an adventure. This is our experience of Ooty, Tamil Nadu Ooty travel blog.</p>
+        </p>
+    </div>
+    <div class="Travel">
+
+
+        <div class="Lines">
+            <ol type="1">
+                <h6> Table of Contents</h6>
+                <li>Ooty Travel Blog Pictursque Hues on the Peaks</li>
+                <li> Driving to Ooty</li>
+                <li> The Other Way to get There</li>
+                <li> We Changed our Stay TWICE!</li>
+                <li>Driving Through Bandipur Tiger Reserve</li>
+                <li>2-Days Ooty Travel Diaries</li>
+                <li> Day 1 in Ooty</li>
+                <li>Day 2 in Touring the Town</li>
+            </ol>
+        </div>
+
+        <h6>Ooty Travel Blog: Getting off with a good start!</h6>
+        <h6>Driving to Ooty</h6>
+        <li>
+            Since we were a Two Members we decided to go by bike, One guy had a Royal Enfield and he declared to bring that Bike. <br>The transport got sorted out quickly.
+        </li>
+        <li>We drove from Vellore through Salem to reach Tamil Nadu Ooty through the Road ways.</li>
+        <li>It was a 10-hour journey. So they took turns driving, each fighting on who not drive up the curves on Ooty, an excellent drive.</li>
+        <li>Id booked the stay for all 8 of us from Booking.com where we not stay together. As we not primarily focused on budget travel, <br>we not picked the cheapest one as it caught our eye right away.
+
+            <li> So we asked our hosts for some arrangements and later got a villa with a beautiful view behind it for a sweet price.</li>
+        </li>
+        <h6>Driving Through Bandipur Tiger Reserve</h6>
+        <li>Early at 5 am, I managed to drag myself out of my bed and get ready as we were leaving early. It was a 10 and a half-hour drive from Vellore.</li>
+        <li>Driving for two hours or so, we had breakfast at a vegetarian restaurant by the road and began our trip again. With its cushiony seats, we did not have trouble through the hours.</li>
+        <li>mudumalai tiger reserve when visiting ooty Ooty travel blog: Crossing the Mudumalai-Bandipur Tiger Reserve While we had no luck with tigers, we spotted plenty of deers, some elephants, and peacocks. The drive itself was exhilarating throughout.</li>
+    </div>
+    <div class="bandi">
+
+
+        <div class="bandipur">
+            <img src="https://madmansjourney.com/wp-content/uploads/2022/02/mudumalai-tiger-reserve-ooty-768x1024.jpg">
+        </div>
+        <div class="day1">
+            <h6>Day 1 in Ooty</h6>
+        </div>
+        <li>Less than 3 days to be more accurate. As we reached Ooty, it was already over 12 in the afternoon. Our hosts suggested a place to dine in where it cost us much more than anticipated. We spent around Rs. 350 per person, it was EXPENSIVE.</li>
+        <li>With the plastic ban in Ooty, no junk skims on the roads, coffee shops offer hot chocolates in ceramic mugs rather than disposable cups, and the cold makes the smokes of grilled corn makes all the more pleasing.</li>
+    </div>
+    <div class="day2">
+        <h6>Day-2 Touring the Town</h6>
+    </div>
+
+    <div class="Choco">
+        <h6>Tea & Chocolate Factories</h6>
+        <div class="chocolate">
+            <img src="https://i.pinimg.com/736x/a4/5e/e1/a45ee13527965fb74c0633110b1f3a29.jpg">
+        </div>
+        <li>We turned back to the chocolate factory. For a mere Rs. 30 or so for each person, they took us for a tour around the processing of cacao to make chocolates and the tea processes… and we got a bar of chocolate each! Some white and some dark chocolates.
+        </li>
+        <li>With so many chocolate and tea factories in Ooty, it is difficult to describe which exact one did we visit. But to pinpoint, it lay next to the Eagles Dare Adventures a site for sports like Sky Bridge walk, ziplining, and wall-climbing.</li>
+
+    </div>
+    <div class="Lakes">
+        <h6>Pykara Lake</h6>
+        <div class="Lake">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/9b/41/39/fb-img-1536802621189.jpg?w=1200&h=-1&s=1">
+        </div>
+        <li>With none of the activities here in our budget, we headed to another nature spot after the tour the Pykara Lake. </li>
+    </div>
+    <div class="boats">
+        <h6>Ooty Lake Boating House</h6>
+        <div class="Boat">
+            <img src="https://www.localguidesconnect.com/t5/image/serverpage/image-id/509430iEC5211D0F57D2D93/image-size/large?v=v2&px=999">
+        </div>
+        <li>The Ooty lake stands as one of the most popular spots to visit and the boating house even more. This is a fun-vee spot for kids with features of an amusement park, a tiny train track, and paddle boats.</li>
+        <li>There were more like shooting range spots. But it stood on the expensive range of activities. Moreover, it did not seem worth it as we could find all of these activities back home.</li>
+        <h6>Conclusion and Trip Budget</h6>
+        <li>We came back to our Uni campus in time, a little over 7 in the evening. It was an exhausting ride back but it was an experience worth all of it. We got to see another elephant in the reserve and yet we wished we took a ride on the Ooty toy train.
+        </li>
+        <li>But overall, the trip was worth it.</li>
+        <li>We spent around Rs. 6000 per person and most of it was unsurprisingly for car fuel. The villa was much cheaper (around Rs. 300-400 per person per night) and the food got a little expensive.</li>
+        <li> Some activities like boating and the entrance fee to many of the activities contribute to the rest of the expenses.</li>
+        <li>The extra expenditure went on some of the street side food like corn, and carrots, and not to mention the irresistible beanie pom beanie caps. I got two myself!</li>
+        <li>I hope this post on the Ooty travel blog made your day better.</li>
+    </div>
+    </div>
 </body>
 
 </html>
